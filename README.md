@@ -6,7 +6,13 @@ The backend combines an English-language **TF-IDF / logistic regression classifi
 
 ## What I worked on
 
-I chose SMS as the interface, established the overall classifier-and-rules approach, tested edge cases, and iterated on cases where the detector got things wrong. One of the earliest problems: innocent texts like "hey bro u wanna hang out?" were flagged too strongly while some family-emergency scams received weak warnings. I also worked through making the local detector accessible through Twilio webhooks and deployment.
+I started GoldenGuard by figuring out how to turn a scam-detection algorithm into something people could actually use over SMS. I researched different libraries and frameworks, eventually choosing scikit-learn for the TF-IDF and logistic regression classifier, joblib for storing the trained model, and FastAPI and Uvicorn for the backend. I also decided to supplement the classifier with hard-coded rules for specific scam indicators, rather than relying entirely on the model's predictions.
+
+A lot of my time went into testing the detector and finding where its logic failed. For example, a harmless "hey bro, wanna hang out?" message received an overly serious warning, while an obvious grandparent scam asking for bail money wasn't flagged strongly enough. I came up with different edge cases, examined the risk scores and classifications, and used the results to guide adjustments to the rules. I also worked on deciding how the final response should be structured, including the risk level, scam category, explanation, and recommended actions.
+
+The other major challenge was getting everything connected. I had to figure out how Twilio would send incoming messages to a FastAPI webhook, pass them through the detector, and return the result as an SMS. Since Twilio couldn't reach my localhost server, I used a Cloudflare tunnel for local testing before deploying the backend on Render. I then worked through integrating the backend with the website's PostgreSQL-backed member system so it could recognize registered phone numbers and retrieve users' names and preferred languages. This also involved troubleshooting authentication errors between the two services, including repeated HTTP 401 responses.
+
+Getting the classifier to work locally was relatively straightforward compared to getting the entire system to function together. I spent considerably more time testing messages, troubleshooting integrations, and figuring out why something that worked on my laptop wasn't necessarily working through an actual phone number.
 
 This project involved significant AI coding assistance. See [Contributions and sources](CONTRIBUTIONS.md) for a specific breakdown.
 
