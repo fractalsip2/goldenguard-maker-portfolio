@@ -4,7 +4,7 @@ GoldenGuard began as an SMS-based scam detection concept for older adults. My wo
 
 ## AI-assisted implementation
 
-ChatGPT helped write and revise substantial portions of the Python implementation, including parts of detection rules and response logic, and helped debug integration issues. This repository should not be interpreted as code independently handwritten line by line. GoldenGuard's live classifier and rule-based response system do not use ChatGPT to analyze incoming messages at runtime.
+ChatGPT helped write and revise substantial portions of the Python implementation, including parts of detection rules and response logic, and helped debug integration issues. GoldenGuard's live classifier and rule-based response system do not use ChatGPT to analyze incoming messages at runtime.
 
 ## Third-party tools and sources
 
