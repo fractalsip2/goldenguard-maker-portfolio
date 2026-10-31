@@ -8,7 +8,7 @@ The backend combines an English-language **TF-IDF / logistic regression classifi
 
 I chose SMS as the interface, established the overall classifier-and-rules approach, tested edge cases, and iterated on cases where the detector got things wrong. One of the earliest problems: innocent texts like "hey bro u wanna hang out?" were flagged too strongly while some family-emergency scams received weak warnings. I also worked through making the local detector accessible through Twilio webhooks and deployment.
 
-This project involved significant AI coding assistance. See [Contributions and sources](CONTRIBUTIONS.md) for a specific breakdown rather than treating the repository as entirely handwritten code.
+This project involved significant AI coding assistance. See [Contributions and sources](CONTRIBUTIONS.md) for a specific breakdown.
 
 ## Run it locally
 
