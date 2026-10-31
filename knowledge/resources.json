@@ -1,0 +1,198 @@
+{
+  "bank_impersonation": [
+    {
+      "provider": "AARP",
+      "title": "How to Protect Yourself from Bank Impersonation Scams",
+      "url": "https://www.aarp.org/money/scams-fraud/bank-impersonation-fake-text-messages-emails-calls/",
+      "description": "How to identify fake bank texts, calls, and emails and verify them safely."
+    },
+    {
+      "provider": "FTC",
+      "title": "How To Recognize and Avoid Phishing Scams",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+      "description": "How phishing messages try to steal account information and how to respond safely."
+    }
+  ],
+  "gift_card": [
+    {
+      "provider": "FTC",
+      "title": "Avoiding and Reporting Gift Card Scams",
+      "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+      "description": "How gift-card payment scams work and what to do after paying."
+    },
+    {
+      "provider": "AARP",
+      "title": "Gift Card Scams: How to Avoid Them and Protect Yourself",
+      "url": "https://www.aarp.org/money/scams-fraud/gift-card/",
+      "description": "Warning signs and protective steps for gift-card scams."
+    }
+  ],
+  "grandparent_emergency": [
+    {
+      "provider": "FTC",
+      "title": "Scammers Use Fake Emergencies To Steal Your Money",
+      "url": "https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money",
+      "description": "How family-emergency and grandparent scams create pressure and secrecy."
+    },
+    {
+      "provider": "AARP",
+      "title": "AARP Fraud Watch Network",
+      "url": "https://www.aarp.org/money/scams-fraud/",
+      "description": "Fraud guidance, current scam information, and support resources."
+    }
+  ],
+  "government_impersonation": [
+    {
+      "provider": "FTC",
+      "title": "How To Avoid a Government Impersonation Scam",
+      "url": "https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam",
+      "description": "How to recognize and report fake government calls, texts, and payment demands."
+    },
+    {
+      "provider": "AARP",
+      "title": "How to Identify and Avoid Impostor Scams",
+      "url": "https://www.aarp.org/money/scams-fraud/impostor/",
+      "description": "Common warning signs when criminals pose as agencies or familiar organizations."
+    }
+  ],
+  "package_delivery": [
+    {
+      "provider": "U.S. Postal Inspection Service",
+      "title": "Smishing: Package Tracking Text Scams",
+      "url": "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
+      "description": "Official guidance on unexpected USPS delivery texts and reporting smishing."
+    },
+    {
+      "provider": "FTC",
+      "title": "How To Recognize and Avoid Phishing Scams",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+      "description": "General guidance for suspicious delivery links and phishing messages."
+    }
+  ],
+  "romance": [
+    {
+      "provider": "AARP",
+      "title": "How to Protect Yourself Against Online Romance Scams",
+      "url": "https://www.aarp.org/money/scams-fraud/romance/",
+      "description": "Warning signs when an online relationship leads to requests for money."
+    },
+    {
+      "provider": "FTC",
+      "title": "What To Know About Romance Scams",
+      "url": "https://consumer.ftc.gov/articles/what-know-about-romance-scams",
+      "description": "How romance scammers build trust and what to do if someone asks for money."
+    }
+  ],
+  "investment_crypto": [
+    {
+      "provider": "FTC",
+      "title": "Investment Scams",
+      "url": "https://consumer.ftc.gov/articles/investment-scams",
+      "description": "Warning signs of fake investment platforms, guaranteed returns, and pressure to invest."
+    },
+    {
+      "provider": "FTC",
+      "title": "What To Know About Cryptocurrency and Scams",
+      "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-scams",
+      "description": "How scammers use cryptocurrency for payments and fake investments."
+    }
+  ],
+  "tech_support": [
+    {
+      "provider": "FTC",
+      "title": "How To Spot, Avoid, and Report Tech Support Scams",
+      "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams",
+      "description": "How fake support agents seek remote access, payment, or personal information."
+    },
+    {
+      "provider": "AARP",
+      "title": "AARP Fraud Watch Network",
+      "url": "https://www.aarp.org/money/scams-fraud/",
+      "description": "Fraud guidance and support resources for people targeted by scams."
+    }
+  ],
+  "unknown": [
+    {
+      "provider": "AARP",
+      "title": "AARP Fraud Watch Network",
+      "url": "https://www.aarp.org/money/scams-fraud/",
+      "description": "Current scam guidance, alerts, reporting resources, and support."
+    },
+    {
+      "provider": "FTC",
+      "title": "Avoiding and Reporting Scams",
+      "url": "https://consumer.ftc.gov/scams",
+      "description": "Official guidance on common scams and how to report them."
+    }
+  ],
+  "account_takeover": [
+    {
+      "provider": "FTC",
+      "title": "How To Recognize and Avoid Phishing Scams",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+      "description": "Guidance on messages that try to steal passwords, verification codes, and account information."
+    },
+    {
+      "provider": "AARP",
+      "title": "How to Protect Yourself from Bank Impersonation Scams",
+      "url": "https://www.aarp.org/money/scams-fraud/bank-impersonation-fake-text-messages-emails-calls/",
+      "description": "Guidance on fake account alerts and requests for codes or banking information."
+    }
+  ],
+  "prize_sweepstakes": [
+    {
+      "provider": "AARP",
+      "title": "AARP Fraud Watch Network",
+      "url": "https://www.aarp.org/money/scams-fraud/",
+      "description": "Current scam guidance, alerts, reporting resources, and support."
+    },
+    {
+      "provider": "FTC",
+      "title": "Avoiding and Reporting Scams",
+      "url": "https://consumer.ftc.gov/scams",
+      "description": "Official guidance on common scams and how to report them."
+    }
+  ],
+  "employment": [
+    {
+      "provider": "AARP",
+      "title": "How Fake Employment Scams Target Your Online Job Search",
+      "url": "https://www.aarp.org/money/scams-fraud/online-job-search/",
+      "description": "How fake recruiters, remote-job offers, and requests for money or personal information target job seekers."
+    },
+    {
+      "provider": "FTC",
+      "title": "Job Scams",
+      "url": "https://consumer.ftc.gov/articles/job-scams",
+      "description": "Official guidance on fake jobs, fake checks, equipment purchases, and employer impersonation."
+    }
+  ],
+  "marketplace": [
+    {
+      "provider": "AARP",
+      "title": "How to Identify and Avoid Facebook Marketplace Scams",
+      "url": "https://www.aarp.org/money/scams-fraud/facebook-marketplace/",
+      "description": "Warning signs for fake buyers, fake payments, verification-code requests, and marketplace fraud."
+    },
+    {
+      "provider": "FTC",
+      "title": "Selling Stuff Online? Here’s How to Avoid a Scam",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2022/07/selling-stuff-online-heres-how-avoid-scam",
+      "description": "Official guidance on fake payments, overpayments, checks, and unsafe online sales."
+    }
+  ],
+  "toll_payment": [
+    {
+      "provider": "AARP",
+      "title": "How to Protect Yourself Against Toll Road Scam Texts",
+      "url": "https://www.aarp.org/money/scams-fraud/toll-road-texts.html",
+      "description": "How fraudulent toll texts impersonate collection systems and seek payment or personal information."
+    },
+    {
+      "provider": "FTC",
+      "title": "Got a Text About Unpaid Tolls? It’s Probably a Scam",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/01/got-text-about-unpaid-tolls-its-probably-scam",
+      "description": "Official guidance for checking toll claims without using links in unexpected texts."
+    }
+  ]
+}

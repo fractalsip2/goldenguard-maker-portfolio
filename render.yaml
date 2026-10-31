@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: goldenguard-api
+    runtime: python
+    plan: free
+    autoDeploy: true
+    buildCommand: >-
+      pip install -r requirements.txt &&
+      python -m src.trainer &&
+      python -m src.rag.build_index
+    startCommand: >-
+      python -m uvicorn api:app
+      --host 0.0.0.0
+      --port $PORT
+      --proxy-headers
+      --forwarded-allow-ips='*'
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_MESSAGING_SERVICE_SID
+        sync: false
+      - key: TWILIO_VALIDATE_SIGNATURE
+        value: "true"
+      - key: GOLDENGUARD_PUBLIC_BASE_URL
+        value: https://goldenguard-api.onrender.com
+      - key: GOLDENGUARD_MEMBER_LOOKUP_URL
+        value: https://goldenguardusa.com/api/internal/member-profile
+      - key: GOLDENGUARD_MEMBER_LOOKUP_SECRET
+        sync: false
+      - key: GOLDENGUARD_ALLOW_LOCAL_PROFILES
+        value: "false"
+      - key: GOLDENGUARD_SMS_INCLUDE_URLS
+        value: "true"
+      - key: GOLDENGUARD_SMS_MAX_CHARS
+        value: "600"
