@@ -10,13 +10,14 @@ Requires Python 3.12:
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+python -m src.trainer
 python -m src.rag.build_index
 python -m src.detect "Grandma, I got arrested and need money for bail. Don't tell Mom." --name Alex --language en
 python -m src.detect "hey bro u wanna hang out on saturday? dinners on me" --name Alex --language en
 python -m pytest -q
 ```
 
-If needed, the trained classifier can be regenerated using `python -m src.trainer`.
+The classifier artifact is regenerated locally by the training command above, rather than committed as a binary.
 
 ## Architecture
 
