@@ -16,6 +16,10 @@ Getting the classifier to work locally was relatively straightforward compared t
 
 This project involved significant AI coding assistance. See [Contributions and sources](CONTRIBUTIONS.md) for a specific breakdown.
 
+## A note on live SMS testing
+
+A few of my test messages have triggered Twilio's message-filtering error (30007), so occasionally a reply doesn't reach my phone even though GoldenGuard processed the text. I've mainly seen this when repeatedly testing similar USPS scams. I'm aware of the issue and plan to contact Twilio and adjust the SMS replies to reduce the filtering.
+
 ## Run it locally
 
 Requires Python 3.12. A local demonstration works **without Twilio credentials, a real phone number, or the production member database**.
